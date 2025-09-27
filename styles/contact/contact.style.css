@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 20%;
+    width: 70%;
+    background-color: brown;
+}
+
+.goBackArrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: blueviolet;
+    height: 80px;
+    width: 85px;
+}
+
+.dinamicModal{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 60%;
+    align-items: center;
+}
+
+.contact-buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: 30%;
+    background-color: blueviolet;
+}
+
+.contact-btn{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(67, 86, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:aqua;
+    width: 50%;
+}
+

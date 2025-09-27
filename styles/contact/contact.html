@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="./contact.style.css">
+  <link rel="stylesheet" href="./modals/modal.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="goBackArrow">
+      <img src="/assets/goBackArrow.png" alt="goBackArrow">
+    </div>
+    
+  </div>
+  <h1>Contactos</h1>
+
+  <section class="dinamicModal">
+    <div class="contact-buttons">
+    <button class="open-modal contact-btn" data-modal="email">
+      <img src="../../assets/mailIcon.png" alt="emailIcon">
+    </button>
+    <button class="open-modal contact-btn" data-modal="phone">
+      <img src="../../assets/whatsappIcon.png" alt="phoneIcon">
+    </button>
+    <button class="open-modal contact-btn" data-modal="linkedin">
+      <img src="../../assets/linkedinIcon.png" alt="linkedinLink">
+    </button>
+    <button class="open-modal contact-btn" data-modal="github">
+      <img src="../../assets/githubIcon.png" alt="githubIcon">
+    </button>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <div id="modal-body">
+        
+      </div>
+    </div>
+  </div>
+  </section>
+
+  
+
+  <script type="module" src="./contact.ts"></script>
+</body>
+</html>

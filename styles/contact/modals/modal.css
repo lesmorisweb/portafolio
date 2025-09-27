@@ -1,0 +1,29 @@
+.modal {
+  --modalHeight: 40%;
+  --modalWidth: 80%;
+  /* position: absolute; */
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--modalHeight);
+  width: var(--modalWidth);
+  /* top: 50vh-(var(--modalHeight)/2);
+  left: 50vw-(var(--modalWidth)/2); */
+  background-color: wheat;
+}
+
+
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.hidden{
+  display: none ;
+}
