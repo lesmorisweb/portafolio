@@ -8,7 +8,11 @@ const academicButton = document.getElementById("toAcademicInfo") as HTMLButtonEl
 
 contactButton.addEventListener("click", ()=>{
     console.log("click down")
-    window.location.href= "./styles/contact/contact.html"
+
+    const localHost= window.location.host
+    const url= `/styles/contact/contact.html`
+    console.log(url)
+    window.location.assign(url)
 })
 
 upButton.addEventListener("click", ()=> {
