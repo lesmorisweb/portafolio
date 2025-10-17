@@ -8,8 +8,6 @@ const academicButton = document.getElementById("toAcademicInfo") as HTMLButtonEl
 
 contactButton.addEventListener("click", ()=>{
     console.log("click down")
-
-    const localHost= window.location.host
     const url= `/styles/contact/contact.html`
     console.log(url)
     window.location.assign(url)
@@ -22,7 +20,7 @@ upButton.addEventListener("click", ()=> {
 
 rightButton.addEventListener("click", ()=> {
     console.log("click right")
-    window.location.href= "./styles/knowleage/knowleage.html"
+    window.location.href= "/styles/knowleage/knowleage.html"
 })
 
 academicButton.addEventListener("click", ()=>{
