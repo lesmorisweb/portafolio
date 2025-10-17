@@ -19,10 +19,45 @@ body{
     align-items: center;
     justify-content: center;
     border-color: blueviolet;
-    height: 30px;
-    width: 35px;
+    height: 80px;
+    width: 85px;
 }
 
 img{
     object-fit: contain;
+    height: 50%;
+    width: 50%;
+}
+
+.content{
+    height: 80%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.attributeCard{
+    border: 3px solid rgb(229, 148, 56);
+    background-color: aliceblue;
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 17%;
+    padding-top: 5%;
+    border-radius: 15%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.attributeCard:hover {
+    transform: scale(1.2);
 }
