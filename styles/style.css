@@ -32,7 +32,8 @@ span{
     justify-content: center;
     text-align: justify;
     font-size: 18px;
-    margin: 5%;
+    margin: 3%;
+    padding: 2%;
 }
 
 .info{
@@ -81,7 +82,7 @@ img{
 
 .middleSection{
     width: 100%;
-    height: 40%;
+    height: 45%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -134,7 +135,6 @@ img{
     rotate: -90deg;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
 }
 
 .downRow{
