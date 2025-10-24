@@ -25,5 +25,5 @@ rightButton.addEventListener("click", ()=> {
 
 academicButton.addEventListener("click", ()=>{
     console.log("click left")
-    window.location.href= "./styles/"
+    window.location.href= "/styles/academicInfo/academicInfo.html"
 })
