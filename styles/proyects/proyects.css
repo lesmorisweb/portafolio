@@ -30,13 +30,13 @@ img{
 }
 
 .content{
-    border: 2px white solid;
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 95%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-self: center;
     justify-self: center;
+    
 }
 
 .card{
@@ -46,7 +46,9 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px wheat solid;
+    border: 3px wheat solid;
+    margin: 8%;
+    border-radius: 12%;
 }
 
 .image{
@@ -56,16 +58,27 @@ img{
     align-items: center;
     justify-content: center;
     margin: 3%;
-    padding: 2%;
 }
 
-h2{
+span{
     text-align: center;
     text-transform: capitalize;
-    font-weight: bolder;
+    font-weight:bolder;
+    font-size: x-large;
 }
 
 a{
-    margin-bottom: 6%;
+    margin-bottom: 3%;
+    color: rgb(191, 202, 198);
+}
+
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    width: 100%;
 }
 
