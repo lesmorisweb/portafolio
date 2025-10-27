@@ -15,7 +15,7 @@ contactButton.addEventListener("click", ()=>{
 
 upButton.addEventListener("click", ()=> {
     console.log("click up")
-    window.location.href= "./styles/proyects/proyects.html"
+    window.location.href= "/styles/proyects/proyects.html"
 })
 
 rightButton.addEventListener("click", ()=> {
